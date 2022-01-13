@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loading_api {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 1rem;
+  color: white;
+}
+
+.input_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.left_side {
+  flex: 1;
+}
+
+.right_side {
+  flex: 1;
+}
+
+.textarea {
+  width: 80%;
+}
+
+input {
+  margin-top: 1rem;
+  padding: 5px;
+}
+
+.btnAddSkill {
+  color: rgb(11, 64, 110);
+  margin-top: 1rem;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btnDeleteSkill {
+  color: rgb(11, 64, 110);
+  margin-top: 1rem;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
